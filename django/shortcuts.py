@@ -188,3 +188,11 @@ def resolve_url(to, *args, **kwargs):
 
     # Finally, fall back and assume it's a URL
     return to
+
+
+def make_toast():
+    """
+    It's my first time working with django,
+    why not make a toast.
+    """
+    return "toast"
